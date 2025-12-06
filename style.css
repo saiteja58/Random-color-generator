@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px;
+}
+
+.container{
+    border: 2px solid black;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
